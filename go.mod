@@ -2,12 +2,10 @@ module github.com/banks/consul-waldump
 
 go 1.20
 
-replace github.com/hashicorp/raft-wal => ../../hashicorp/raft-wal
-
 require (
 	github.com/hashicorp/consul v1.15.1
 	github.com/hashicorp/raft v1.4.0
-	github.com/hashicorp/raft-wal v0.3.0
+	github.com/hashicorp/raft-wal v0.3.1-0.20230330130845-8b98e5fe31b2
 	google.golang.org/protobuf v1.28.1
 )
 
