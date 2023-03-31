@@ -16,7 +16,7 @@ $ consul-waldump [-after INDEX] [-before INDEX] [-t] [-short] /path/to/wal/dir
 Each log entry is written out as JSON followed by a newline. Top level fields
 are:
 
-```json
+```jsonc
 {
   "Index": 12345, // The Raft index of the log entry
   "Op": {}, // The raw consul operation (or a description for internal raft types)
